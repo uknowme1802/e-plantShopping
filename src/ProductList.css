@@ -98,13 +98,17 @@ body {
 }
 
 .product-button {
-    background-color: #e74c3c;
-    color: #fff;
+    background-color: #4CAF50;
+    color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    font-size: 16px;
+    margin: 4px 2px;
     transition: background-color 0.3s ease-in-out;
-    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .product-button:hover {
@@ -178,15 +182,16 @@ body {
    justify-content: center;
     /* background-color: yellow; */
 }
-.plant_heading{
-    width: 400px;
+.plant_heading {
+    width: 100%;
     text-align: center;
-    margin: 20px;
-    border: 1px solid rgb(5, 4, 4);
-    border-left: none;
-    border-right: none;
-
-    
+    margin: 20px 0;
+    padding: 10px 0;
+    border-top: 2px solid #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
 }
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
