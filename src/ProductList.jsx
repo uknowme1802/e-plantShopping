@@ -303,7 +303,7 @@
                               <h4>{plant.name}</h4>
                               <p>{plant.description}</p>
                               <p>{plant.cost}</p>
-                              <button
+                              <button className="add-to-cart-btn"
                                 onClick={() => handleAddToCart(plant)}
                                 disabled={addedToCart[plant.name]}
                               >
